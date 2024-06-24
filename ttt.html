@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <button id="restart" onclick="restart()"><h2>Restart</h2></button>
+            <h2 id="curturn">Turn : X</h2>
+            <a href="index.html"><h2>Home</h2></a>
+        </div>
+    </header>
+    <main>
+        <div class="board">
+            <button type="submit" id = "btn11" onclick="play1()"></button><button id = "btn12" onclick="play2()"></button><button id = "btn13" onclick="play3()"></button><button id = "btn21" onclick="play4()"></button><button id = "btn22" onclick="play5()"></button><button id = "btn23" onclick="play6()"></button><button id = "btn31" onclick="play7()"></button><button id = "btn32" onclick="play8()"></button><button id = "btn33" onclick="play9()"></button>
+        </div>
+        <div class="desc">
+            <div class="title"><h1>TIC TAC TOE</h1></div>
+            <div class="disc"> <h3>Welcome to Tic Tac Toe! This classic game of strategy<br>and skill pits two players against each other in a battle of<br>Xs and Os. The goal is simple: be the first to line up three<br> of your symbols horizontally, vertically, or diagonally on<br>a 3x3 grid. Whether you're a seasoned player or new to the<br> game, Tic Tac Toe promises fun and excitement for all.<br>Get ready to test your wits and enjoy the timeless challenge!</h3></div>
+            <div class="playbut"><button class="playlogo">Click on board to Play</button><img src="images/playlogo.jpg" alt="" width="50px" height="50px"></div></div>
+    </main>
+    
+
+
+    <script src="ttt.js"></script>
+</body>
+</html>
