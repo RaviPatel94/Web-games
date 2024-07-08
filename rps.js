@@ -30,7 +30,7 @@ function play(){
     let score=document.getElementById("score")
     let W=0
     let L=0
-    let T=1
+    let T=0
 
     rock.addEventListener("click",()=>{
         you.src="images/rock.png"
