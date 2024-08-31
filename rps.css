@@ -9,8 +9,9 @@ body{
 .head{
     display: flex;
     justify-content:space-between;
-    padding: 25px 30px;
-    width: 600px;
+    gap: 15px;
+    padding: 25px 0;
+    max-width: 600px;
 }
 h2{
     margin: 0;
@@ -78,6 +79,8 @@ button:hover{
 
 .disc{
     margin-bottom: 20px;
+    max-width: 500px;
+    min-width: none;
 }
 
 h1{
