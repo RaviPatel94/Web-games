@@ -4,16 +4,31 @@ body{
 }
 h1{
     text-align: center;
+    margin: 10px 0;
 }
 
-.menu{
+#heading{
     display: flex;
     justify-content: space-between;
 }
 
+#heading img{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+}
+
 .thumbnail{
     display:flex;
+    flex-direction: column;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 image{
@@ -34,4 +49,13 @@ a{
 button{
     cursor: pointer;
 
+}
+
+.linkedin{
+    width:90%;
+    position: absolute;
+    display: inline;
+    margin-bottom: 15px;
+    text-align: center;
+    bottom: 5px;
 }
