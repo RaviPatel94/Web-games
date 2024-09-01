@@ -31,13 +31,15 @@ main{
 }
 
 #area{
-    background-color: black;
-    border: red 2px solid;
+    background-color: rgb(130, 130, 130);
+    border: rgb(0, 0, 0) 2px solid;
     width: 310px;
     height: 310px;
     margin-right: 80px;
-    position: relative;
+    display: flex;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .clickme{
@@ -45,9 +47,7 @@ main{
     color: white;
     position: absolute;
     font-size: 25px;
-    top: 46%;
-    left: 34% ;
-    height: 15px;
+    height: auto;
 }
 
 div{
