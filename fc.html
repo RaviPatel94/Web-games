@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fc.css">
 </head>
 <body>
     <header>
-        <div class="head">
+        <div id="heading">
+            <div class="brand">
+            <img src="images/weblogo.png" width="40px" height="40px" alt="">
+            <h1 class="gamestitle">Web-Games</h1>
+            </div>
+            <div class="head">
+                <h2 id="timedisplay">Time:5s</h2>
+                <h2 id="besttime">Best CPS:</h2>
+                <a href="index.html"><h2>Home</h2></a>
+            </div>
+            <div class="options">
+                <div class="points">
+                    <p>0</p> <img src="/images/WGP.png" alt="Webgamepoints" style="border-radius: 50%;" width="30px" height="30px "> <div class="wgpdisc">Web-Games Point</div>
+                </div>
+                <img class="pfp" src="images/icon.jpg" width="40px" height="40px">
+            </div>
+        </div>
+        <div class="head2">
             <h2 id="timedisplay">Time:5s</h2>
             <h2 id="besttime">Best CPS:</h2>
             <a href="index.html"><h2>Home</h2></a>
@@ -21,7 +41,7 @@
         <div class="desc">
             <div class="title"><h1>Fastest Clicker</h1></div>
             <div class="disc"> <h3>Try an click the fastest and can you in the black area given, can beat me? the developer, i am pretty fast in clicking my best speed is 12 cps, best of luck.</h3></div>
-            <div>
+            <div class="btns">
                 <button id="s1">1 Sec</button>
                 <button id="s5">5 Sec</button>
                 <button id="s10">10 Sec</button>
