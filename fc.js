@@ -7,7 +7,7 @@ let clicks=0
 let count=0
 let time=5000
 
-area.addEventListener("click",()=>{
+function countclick(){
     clicks+=1
     clickme.innerHTML=clicks
     if (count==0){
@@ -23,7 +23,9 @@ area.addEventListener("click",()=>{
         },time)
     count++
     }
-})
+}
+area.addEventListener("click", countclick)
+area.addEventListener("touchstart", countclick)
 
 // time
 
@@ -31,19 +33,38 @@ document.querySelector("#s1").addEventListener("click",()=>{
     time=1000
     timeDisplay.innerHTML=`Time:${time/1000}s`
 })
+document.querySelector("#s1").addEventListener("touchstart",()=>{
+    time=1000
+    timeDisplay.innerHTML=`Time:${time/1000}s`
+})
+
 
 document.querySelector("#s5").addEventListener("click",()=>{
     time=5000
     timeDisplay.innerHTML=`Time:${time/1000}s`
 })
+document.querySelector("#s5").addEventListener("touchstart",()=>{
+    time=5000
+    timeDisplay.innerHTML=`Time:${time/1000}s`
+})
+
+
 
 document.querySelector("#s10").addEventListener("click",()=>{
     time=10000
     timeDisplay.innerHTML=`Time:${time/1000}s`
 })
+document.querySelector("#s10").addEventListener("touchstart",()=>{
+    time=10000
+    timeDisplay.innerHTML=`Time:${time/1000}s`
+})
+
 
 document.querySelector("#s30").addEventListener("click",()=>{
     time=30000
     timeDisplay.innerHTML=`Time:${time/1000}s`
 })
-
+document.querySelector("#s30").addEventListener("touchstart",()=>{
+    time=30000
+    timeDisplay.innerHTML=`Time:${time/1000}s`
+})
