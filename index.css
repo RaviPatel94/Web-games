@@ -145,6 +145,12 @@ button{
 
 }
 
+.linkedindiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 .linkedin{
     position: absolute;
     margin-bottom: 15px;
